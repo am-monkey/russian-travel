@@ -1,0 +1,27 @@
+.cover {
+  position: relative;
+  margin: 92px 48px 0 48px;
+  transition: opacity .2s linear;
+}
+
+.cover:hover .cover__overlay {
+  background-color: rgba(42, 44, 47, .8);
+}
+
+@media (max-width : 1024px) {
+  .cover {
+    margin: 92px 0 0 0;
+  }
+}
+
+@media (max-width : 768px) {
+  .cover {
+    margin: 90px 0 0 0;
+  }
+}
+
+@media (max-width : 320px) {
+  .cover {
+    margin: 66px 0 0 0;
+  }
+}
