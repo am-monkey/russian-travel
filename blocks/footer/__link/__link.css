@@ -1,7 +1,7 @@
 .footer__link {
   color: #fff;
   margin-right: 18px;
-  font-size: 1.5rem;
+  font-size: 16px;
   line-height: 18px;
   text-decoration: none;
   transition: opacity .2s linear;
@@ -15,10 +15,25 @@
   margin-right: 0;
 }
 
-
-@media (max-width: 920px) {
+@media (max-width: 768px) {
   .footer__link {
-    line-height: 1.5rem;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
     margin-bottom: 32px;
   }
 }
