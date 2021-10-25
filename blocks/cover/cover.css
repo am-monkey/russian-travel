@@ -8,19 +8,19 @@
   background-color: rgba(42, 44, 47, .8);
 }
 
-@media (max-width : 1024px) {
+@media (max-width: 1024px) {
   .cover {
     margin: 92px 0 0 0;
   }
 }
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
   .cover {
     margin: 90px 0 0 0;
   }
 }
 
-@media (max-width : 320px) {
+@media (max-width: 320px) {
   .cover {
     margin: 66px 0 0 0;
   }

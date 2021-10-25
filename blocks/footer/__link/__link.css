@@ -1,7 +1,7 @@
 .footer__link {
   color: #fff;
   margin-right: 18px;
-  font-size: 1.5rem;;
+  font-size: 1.5rem;
   line-height: 18px;
   text-decoration: none;
   transition: opacity .2s linear;
@@ -16,7 +16,7 @@
 }
 
 
-@media (max-width : 920px) {
+@media (max-width: 920px) {
   .footer__link {
     line-height: 1.5rem;
     margin-bottom: 32px;

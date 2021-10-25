@@ -4,19 +4,19 @@
   padding: 92px 48px 24px 48px;
 }
 
-@media (max-width : 1024px) {
+@media (max-width: 1024px) {
   .footer {
   }
 }
 
-@media (max-width : 920px) {
+@media (max-width: 920px) {
   .footer {
     flex-direction: column;
     padding: 88px 24px 24px 24px;
   }
 }
 
-@media (max-width : 320px) {
+@media (max-width: 320px) {
   .footer {
     flex-direction: column;
     padding: 64px 118px 24px 16px;
