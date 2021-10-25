@@ -1,4 +1,4 @@
-.place__website__link {
+.place__website_link {
   color: #fff;
   margin: 12px 0 0 0;
   padding: 0;
@@ -8,14 +8,14 @@
   transition: opacity .2s linear;
 }
 
-.place__website__link:hover{
+.place__website_link:hover{
   text-decoration-line: underline;
   opacity: 0.8;
 }
 
 
 @media (max-width: 768px) {
-  .place__website__link {
+  .place__website_link {
     font-size: 1rem;
     line-height: 1rem;
   }
