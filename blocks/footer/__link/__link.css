@@ -1,6 +1,5 @@
 .footer__link {
   color: #fff;
-  margin-right: 18px;
   font-size: 16px;
   line-height: 18px;
   text-decoration: none;
@@ -11,9 +10,6 @@
   opacity: 0.8;
 }
 
-.footer__link:last-of-type {
-  margin-right: 0;
-}
 
 @media (max-width: 768px) {
   .footer__link {
@@ -26,7 +22,6 @@
   .footer__link {
     font-size: 24px;
     line-height: 24px;
-    margin-bottom: 32px;
   }
 }
 
@@ -34,6 +29,5 @@
   .footer__link {
     font-size: 24px;
     line-height: 24px;
-    margin-bottom: 32px;
   }
 }

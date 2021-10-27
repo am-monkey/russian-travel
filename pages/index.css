@@ -6,6 +6,7 @@
 /* section: header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/__logo.css);
+@import url(../blocks/header/__lang/__lang.css);
 @import url(../blocks/header/__lang-link/__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
@@ -49,5 +50,7 @@
 
 /* section: footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/__links.css);
+
 @import url(../blocks/footer/__link/__link.css);
 @import url(../blocks/footer/__copyright/__copyright.css);
