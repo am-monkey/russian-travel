@@ -14,12 +14,12 @@
 
 @media (max-width: 768px) {
   .cover__title {
-    font-size: 4.5rem;
+    font-size: 72px;
     padding: 0 104px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px){
+@media (min-width: 320px) and (max-width: 767px){
   .cover__title {
     font-size: 2.5rem;
     line-height: 2.5rem;
