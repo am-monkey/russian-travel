@@ -1,15 +1,22 @@
 .footer__link {
   color: #fff;
+  font-family: 'InterRegular', Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   text-decoration: none;
   transition: opacity .2s linear;
+  margin-right: 16px;
+
 }
 
 .footer__link:hover {
   opacity: 0.8;
 }
 
+.footer__link:last-of-type {
+  margin-right: 0;
+  margin-bottom: 0;
+}
 
 @media (max-width: 768px) {
   .footer__link {
@@ -22,6 +29,7 @@
   .footer__link {
     font-size: 24px;
     line-height: 24px;
+    margin: 0 0 32px 0;
   }
 }
 
@@ -29,5 +37,7 @@
   .footer__link {
     font-size: 24px;
     line-height: 24px;
+    margin: 0 0 32px 0;
+
   }
 }

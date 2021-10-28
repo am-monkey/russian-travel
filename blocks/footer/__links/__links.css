@@ -2,31 +2,26 @@
     margin: 0;
     padding: 0;
     list-style: none;
-}
-.footer__links li{
-    margin-right: 16px;
+    display: flex;
+    flex-direction: row;
 }
 
-.footer__links:last-of-type {
-    margin-right: 0;
-  }
+
 
 
   @media (min-width: 768px) {
-    .footer__links li {
-      display: inline-block;
-    }
   }
   
   @media (min-width: 321px) and (max-width: 767px) {
-    .footer__links li {
-      margin-bottom: 32px;
-
+    .footer__links {
+      margin-bottom: 48px;
+      flex-direction: column;
     }
   }
   
   @media (max-width: 320px) {
-    .footer__links li {
-      margin-bottom: 32px;
+    .footer__links {
+      margin-bottom: 48px;
+      flex-direction: column;
     }
   }
