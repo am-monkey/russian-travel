@@ -1,5 +1,5 @@
-@import url(../styles/normalize.css);
-@import url(../styles/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
 
@@ -16,12 +16,14 @@
 @import url(../blocks/lead/__subtitle/__subtitle.css);
 @import url(../blocks/lead/__image/__image.css);
 @import url(../blocks/lead/__caption/__caption.css);
+@import url(../blocks/lead/__figure/__figure.css);
 
 /* section: intro */
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/__title.css);
 @import url(../blocks/intro/__text/__text.css);
 @import url(../blocks/intro/__list/__list.css);
+@import url(../blocks/intro/__digits/__digits.css);
 
 /* section: photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -43,7 +45,6 @@
 /* section: cover */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/__link.css);
-@import url(../blocks/cover/__overlay/__overlay.css);
 @import url(../blocks/cover/__background/__background.css);
 @import url(../blocks/cover/__title/__title.css);
 @import url(../blocks/cover/__subtitle/__subtitle.css);

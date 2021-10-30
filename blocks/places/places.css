@@ -1,24 +1,26 @@
 .places {
   display: flex;
   flex-direction: column;
-  padding: 92px 148px 0 148px;
+  margin: 92px auto;
+  padding: 0 148px;
 }
 
 @media (max-width: 1024px) {
   .places {
-    padding: 92px 48px 0 48px;
+  padding: 0 48px;
   }
 }
 
 @media (max-width: 768px) {
   .places {
-    padding: 88px 24px 0 24px;
+    margin: 88px auto;
+    padding: 0 24px;
   }
 }
 
 @media (max-width: 320px) {
   .places {
-    padding: 64px 0 0 0;
-    min-width: 320px;
+    margin: 64px auto;
+    padding: 0;
   }
 }

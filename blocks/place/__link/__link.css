@@ -2,8 +2,8 @@
   color: #fff;
   margin: 12px 0 0 0;
   padding: 0;
-  font-family: 'InterRegular', Arial, sans-serif;
-
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
@@ -13,12 +13,4 @@
 .place__link:hover{
   text-decoration-line: underline;
   opacity: 0.8;
-}
-
-
-@media (max-width: 768px) {
-  .place__link {
-    font-size: 18px;
-    line-height: 22px;
-  }
 }

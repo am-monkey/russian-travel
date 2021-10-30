@@ -1,27 +1,14 @@
-.footer__links{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
+.footer__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 
 
-
-
-  @media (min-width: 768px) {
+@media (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
   }
-  
-  @media (min-width: 321px) and (max-width: 767px) {
-    .footer__links {
-      margin-bottom: 48px;
-      flex-direction: column;
-    }
-  }
-  
-  @media (max-width: 320px) {
-    .footer__links {
-      margin-bottom: 48px;
-      flex-direction: column;
-    }
-  }
+}
